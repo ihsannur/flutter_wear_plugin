@@ -26,6 +26,7 @@ apply plugin: 'kotlin-android'
 //apply plugin: 'kotlin-android-extensions'
 
 android {
+	namespace 'dev.flutter.wear'
 	compileSdkVersion 31
 
 	sourceSets {
